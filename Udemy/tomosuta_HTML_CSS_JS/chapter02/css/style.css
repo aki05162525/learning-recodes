@@ -47,3 +47,37 @@ div.container{
     font-size: 18px;
     margin: 0 10px 0 0;
 }
+
+.songs{
+    clear: both;
+}
+
+a{
+    color: #666;
+}
+
+.songs h2{
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+    background-color: #e6e4dd;
+    padding: 5px 10px;
+}
+
+.songs ol {
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.songs li{
+    border-bottom: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+section{
+    padding: 20px;
+    background: #fff;
+}
