@@ -1,4 +1,6 @@
 @import url(sanitize.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 
 body{
     background-color: #f0f0f0;
@@ -18,6 +20,7 @@ header h1{
     font-size: 24px;
     font-weight: normal;
     text-align: center;
+    font-family: "Open Sans", serif;
 }
 
 div.container{
@@ -80,4 +83,18 @@ a{
 section{
     padding: 20px;
     background: #fff;
+}
+
+footer{
+    text-align: center;
+    font-size: .8em;
+    padding: 5px;
+}
+
+@media screen and (max-width: 600px){
+    .description img{
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
 }
