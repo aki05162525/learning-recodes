@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexible Box</title>
+    <style>
+        .box {
+            border: 1px solid #ccc;
+        }
+        .container{
+            border: 1px solid red;
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            align-content: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" style="height: 200px; order: 1; flex-grow:1; flex-shrink: 1; flex-basis: 500px">box1</div>
+        <div class="box" style="order: 2; flex-grow:3; align-self: flex-start">box2</div>
+        <div class="box" style="height: 50px; order: 3; flex-grow:2">box3</div>
+    </div>
+</body>
+</html>
