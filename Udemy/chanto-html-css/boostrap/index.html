@@ -21,6 +21,42 @@
 
     <div class="container">
         <p>フォームにご記入してください</p>
+        <form action="" method="post">
+            <div class="mb-3">
+                <label for="mynames" class="form-label">お名前</label>
+                <input type="text" class="form-control" name="myname" id="myname" placeholder="山田　太郎">
+            </div>
+            <div class="mb-3">
+                <label for="job" class="form-label">ご職業</label>
+                <select name="job" id="job" class="form-select" aria-label="ご職業">
+
+                    <option value="">選択してください</option>
+                    <option value="会社員">会社員</option>
+                    <option value="学生">学生</option>
+                    <option value="その他">その他</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label>興味のある分野</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="q1[]" value="HTML" id="q1_html">
+                    <label class="form-check-label" for="q1_html">
+                        HTML
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="q1[]" value="CSS" id="q1_css" >
+                    <label class="form-check-label" for="q1_css">
+                        CSS
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="q1[]" value="JS" id="q1_js">
+                    <label class="form-check-label" for="q1_js">
+                    JS
+                    </label>
+                </div>
+        </form>
     </div>
 </body>
 </html>
