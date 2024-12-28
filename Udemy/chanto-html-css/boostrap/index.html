@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ご利用アンケート</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"></head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
 <body>
     <div class="container">
         <div class="row mt-5">
@@ -23,11 +27,11 @@
         <p>フォームにご記入してください</p>
         <form action="" method="post">
             <div class="mb-3">
-                <label for="mynames" class="form-label">お名前</label>
+                <label for="mynames" class="form-label">お名前<span class="badge rounded-pill bg-danger">必須</span></label>
                 <input type="text" class="form-control" name="myname" id="myname" placeholder="山田　太郎">
             </div>
             <div class="mb-3">
-                <label for="job" class="form-label">ご職業</label>
+                <label for="job" class="form-label">ご職業<span class="badge rounded-pill bg-secondary">任意</span></label>
                 <select name="job" id="job" class="form-select" aria-label="ご職業">
 
                     <option value="">選択してください</option>
@@ -37,15 +41,15 @@
                 </select>
             </div>
             <div class="mb-3">
-                <label>興味のある分野</label>
+                <label>興味のある分野<span class="badge rounded-pill bg-danger">必須</span></label>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" name="q1[]" value="HTML" id="q1_html">
                     <label class="form-check-label" for="q1_html">
                         HTML
                     </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="q1[]" value="CSS" id="q1_css" >
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="q1[]" value="CSS" id="q1_css">
                     <label class="form-check-label" for="q1_css">
                         CSS
                     </label>
@@ -53,10 +57,43 @@
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" name="q1[]" value="JS" id="q1_js">
                     <label class="form-check-label" for="q1_js">
-                    JS
+                        JS
                     </label>
+                </div>
+                <div class="mb-3">
+                    <label>理解度はいかがですか？<span class="badge rounded-pill bg-danger">必須</span></label>
+                    <div class="d-sm-flex">
+                        <div class="form-check me-3">
+                            <input class="form-check-input" type="radio" name="q2" id="q2_1" value="理解できなかった">
+                            <label class="form-check-label" for="q2_1">
+                                理解できなかった
+                            </label>
+                        </div>
+                        <div class="form-check me-3">
+                            <input class="form-check-input" type="radio" name="q2" id="q2_2" value="理解できた">
+                            <label class="form-check-label" for="q2_2">
+                                理解できた
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2" id="q2_3" value="選択しない" checked>
+                            <label class="form-check-label" for="q2_3">
+                                選択しない
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="mb-3">
+                        <label for="message" class="form-label">ご意見・ご感想<span class="badge rounded-pill bg-secondary">任意</span></label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-outline-primary btn-sm">送信する</button>
                 </div>
         </form>
     </div>
 </body>
+
 </html>
