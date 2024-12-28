@@ -91,4 +91,5 @@ credentials/
 config.json
 
 
-.ldentifier
+# Zone.Identifier ファイルを無視
+*:Zone.Identifier
