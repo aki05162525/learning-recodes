@@ -1,0 +1,15 @@
+{
+    "variables":{
+        "lang":"ja"
+    },
+    "html":{
+        "snippets":{
+            "list":"ul>li{${1:item}}*3"
+        }
+    },
+    "css":{
+        "snippets":{
+            "dark":"background-color: #000;\ncolor: #fff"
+        }
+    }
+}
