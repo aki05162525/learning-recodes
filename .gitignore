@@ -1,0 +1,94 @@
+# OS固有のファイル
+.DS_Store       # macOS
+Thumbs.db       # Windows
+desktop.ini     # Windows
+
+# IDEやエディタの設定ファイル
+.idea/
+.vscode/
+*.swp
+*.sublime-workspace
+
+# 一時ファイル
+*.tmp
+*.log
+*.bak
+*.swp
+
+# 環境変数・機密情報
+.env
+.env.local
+config.json
+credentials/
+
+# キャッシュファイル
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ビルド出力
+dist/
+build/
+target/
+out/
+
+
+# Pythonキャッシュファイル
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 仮想環境
+venv/
+.env
+.env.local
+
+# Jupyter Notebookキャッシュ
+.ipynb_checkpoints/
+
+
+# Nodeモジュール
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# ビルド出力
+dist/
+build/
+
+# 環境変数
+.env
+
+
+# キャッシュ・ビルド
+node_modules/
+dist/
+build/
+
+# 環境変数
+.env
+.env.local
+
+# 一時ファイル
+*.tmp
+*.log
+
+
+
+# 秘密鍵
+*.pem
+*.key
+
+# 環境変数
+.env
+.env.local
+
+# 認証情報
+credentials/
+config.json
+
+
+.ldentifier
