@@ -12,6 +12,9 @@ class User {
   constructor(name) {
     this.name = name;
   }
+  hello() {
+    console.log(this.name);
+  }
 }
 
 export { User }
