@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript入門</title>
+</head>
+<body>
+    <script>
+        let dice;
+
+        do{
+            dice = Math.floor(Math.random() * 6) + 1;
+            document.write(dice + '<br>');
+
+        }while(dice !== 1);
+    </script>
+</body>
+</html>

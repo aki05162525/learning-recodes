@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript入門</title>
+</head>
+<body>
+    <script>
+        const area = {
+            'hokkaido': ['北海道'],
+            'tohoku': ['青森県','岩手県']
+        }
+        console.table(area);
+
+
+        for(areaname in area){
+            document.write(areaname + '<br>');
+            for (prefname of area[areaname]){
+                document.write(' -' + prefname + '<br>');
+            }
+        }
+    </script>
+</body>
+</html>

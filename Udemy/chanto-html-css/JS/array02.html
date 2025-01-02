@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript入門</title>
+</head>
+<body>
+    <script>
+        const items = ['いちご','リンゴ','バナナ'];
+        console.table(items);
+
+        //内容を追加する
+        items.push('みかん');
+        items.unshift('ぶどう');
+        console.table(items);
+
+        //内容を変更
+        items[0]='';
+        console.table(items);
+
+        //内容の削除
+        items.shift();//最初から
+        items.pop();//最後から
+        console.table(items);
+
+        //一部分を取り出す
+        console.table(items.slice(1, 3));
+
+    </script>
+</body>
+</html>

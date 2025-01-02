@@ -1,0 +1,36 @@
+<script>
+    class Item{
+        name = '';
+        #stock = 0;
+
+
+        get stock(){
+            console.log('ゲッターが呼び出されました')
+            return this.#stock;
+        }
+        set stock(value){
+            console.log('セッターが呼び出されました')
+            if (value >= 0){
+                this.#stock = value;
+            }
+        }
+
+        buy(count){
+            if(this.#stock > count){
+                this.#stock -= count;
+                return true;
+            }else{
+                return false;
+            }
+        }
+    }
+
+    let peach = new Item();
+    peach.name = 'もも';
+    
+    peach.stock = 5;
+    console.log(peach.stock);
+    peach.stock = -100;
+    console.log(peach.stock);
+
+</script>

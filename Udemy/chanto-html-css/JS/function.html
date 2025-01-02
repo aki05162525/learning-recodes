@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript入門</title>
+</head>
+<body>
+    <script>
+        //税込み金額を求める
+        //アロー関数（主流）
+        const calcInTax = (price) => {
+            const intax = Math.round(price * 1.1);
+            return intax;
+        }
+
+        const calcInTax4 = (price) =>{
+            return Math.round(price * 1.1);
+        }
+
+
+        const calcInTax5 = (price) =>Math.round(price * 1.1);
+
+        
+        //関数宣言
+        function calcInTax2(price){
+            const intax = Math.round(price * 1.1);
+            return intax;
+        }
+
+        //関数式
+        const calcInTax3 = function(price){
+            const intax = Math.round(price * 1.1);
+            return intax;
+        }
+
+        
+
+
+                /*
+        const 関数名　= (受け取るパラメータ―) =>{
+            処理
+            。。。
+            return 戻り値
+        }
+
+
+        const price = 300;
+        const intax = calcInTax(price);
+        const item2 = calcInTax(2000);
+
+        document.write(intax);
+        document.write('<br>');
+
+        document.write(item2);
+
+
+        /*
+        const 関数名　= (受け取るパラメータ―) =>{
+            処理
+            。。。
+            return 戻り値
+        }
+    </script>
+</body>
+</html>

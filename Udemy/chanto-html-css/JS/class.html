@@ -1,0 +1,30 @@
+<script>
+    class Item{
+        name = '';
+        stock = 0;
+
+        buy(count){
+            if(this.stock > count){
+                this.stock -= count;
+                return true;
+            }else{
+                return false;
+            }
+        }
+    }
+
+    let peach = new Item();
+    peach.name = 'もも';
+    console.log(peach.name);
+    peach.stock = 5;
+    console.log(peach.stock);
+    peach.buy(3);
+    console.log(peach.stock);
+    peach.buy(6);
+    console.log(peach.stock);
+
+    let banana = new Item();
+    banana.name = 'バナナ';
+    console.log(banana.name);
+
+</script>

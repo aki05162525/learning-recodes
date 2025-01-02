@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript入門</title>
+</head>
+<body>
+    <p>1 + 1 =<span>?</span></p>
+    <p class="container">?</p>
+    <p class="container">?</p>
+
+    <p id="output">?</p>
+
+    <p class="primary">1つめの要素です</p>
+    <p class="primary">2つめの要素です</p>
+    <script>
+        document.querySelector('p span').textContent = 1 + 1;
+        document.querySelector('.container').textContent = 'hello';
+        document.querySelector('#output').textContent = 'ID属性';
+
+        let elements = document.querySelectorAll('.primary');
+        elements.forEach((element) => {
+            element.style.color = 'red';
+        });
+
+        getElementById
+    </script>
+
+</body>
+</html>

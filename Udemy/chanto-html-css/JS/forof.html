@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript入門</title>
+</head>
+<body>
+    <script>
+        //const pref1 = '北海道';
+        //const pref2 = '青森県';
+        //const pref3 = '岩手県';
+
+
+        const pref = [
+            '北海道',
+            '青森県',
+            '岩手県',
+            '秋田県'
+        
+        ];
+
+        for (name of pref){
+            document.write(name + '<br>');
+        }
+
+
+        pref.forEach((name) =>{
+            document.write(name + '<br>');
+        })
+
+//for (変数of 配列)
+
+    </script>
+</body>
+</html>

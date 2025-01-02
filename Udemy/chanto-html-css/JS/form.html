@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript入門</title>
+</head>
+<body>
+    <dl>
+        <dt>お住まい</dt>
+        <dd>
+            <select name="pref" id="pref">
+                <option value="北海道">北海道</option>
+                <option value="岩手県">岩手県</option>
+                <option value="青森県">青森県</option>
+            </select>
+        </dd>
+        <dt>ご意見</dt>
+        <dd>
+            <textarea name="message" cols="30" rows="3"></textarea>
+        </dd>
+        <dt>利用規約の確認</dt>
+        <dd><label><input type="checkbox" value="agree" id="agree">同意します</label></dd>
+    
+        <dt>オプションを規模ですか？</dt>
+        <dd>
+            <ul>
+                <li><label><input type="radio" name="option1" value="はい">はい</label></li>
+                <li><label><input type="radio" name="option1" value="いいえ" checked>いいえ</label></li>
+            </ul>
+        </dd>
+        <dt>好きな食べ物</dt>
+        <dd>
+            <ul>
+                <li><label><input type="checkbox" name="food[]" value="寿司">寿司</label></li>
+                <li><label><input type="checkbox" name="food[]" value="ぴざ">ぴざ</label></li>
+                <li><label><input type="checkbox" name="food[]" value="らーめん">らーめん</label></li>
+            </ul>
+        </dd>
+    </dl>
+    <div>
+        <button id="send">送信する</button>
+    </div>
+
+    <script>
+        document.getElementById('send').addEventListener
+        ('click', () =>{
+            const pref = document.getElementById('pref').value;
+            console.log(pref);
+
+
+            const message = document.querySelector('textarea[name=message]').value;
+            console.log(message);
+
+            const agree = document.getElementById('agree').checked;
+            if(!agree){
+                console.log('同意してください');
+            }
+
+
+
+            const option1 = document.querySelector('input[name="option1"]:checked').value;
+            console.log(option1);
+
+
+            const foods = document.querySelectorAll(
+                'input[name="food[]"]:checked');
+                foods.forEach((food) =>{
+                    console.log(food.value);
+                });
+        });
+</script>
+</body>
+</html>
