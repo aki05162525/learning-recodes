@@ -1,0 +1,170 @@
+body{
+    color: #383e45;
+    font-size: 13px;
+    line-height: 1.5;
+
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* header */
+header{
+    display: flex;
+    height: 60px;
+    line-height: 60px;
+
+}
+
+
+
+header .site-title img{
+    width: 120px;
+    padding-top: 10px;
+}
+
+
+header nav{
+    margin-left: auto;
+}
+
+header nav ul{
+    display: flex;
+}
+
+
+header nav ul li{
+    margin-left: 30px;
+}
+
+header nav ul li a{
+    color: #24292e;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+header nav ul li a:hover{
+    opacity: 0.7;
+}
+
+
+/* mainvisual */
+
+.mainvidual img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+@media (max-width: 600px){
+    .mainvidual img{
+        height: calc(100vh - 60px);
+    }
+}
+
+
+/* main */
+.section-title{
+    display: inline-block;
+    font-size: 35px;
+    border-bottom: 1px solid #383e45;
+    margin-bottom: 60px;
+}
+
+.content-title{
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+/* about */
+
+.about {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.about .content{
+    display: flex;
+    justify-content: center
+}
+
+
+.about .content img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.about .content .text{
+    text-align: left;
+}
+
+
+@media(max-width: 600px){
+    .about .content{
+        flex-direction: column;
+    }
+
+    .about .content img{
+        margin: 0 auto;
+    }
+
+    .about .content .text{
+        margin: 0 auto;
+    }
+}
+
+
+/* HOBBY*/
+.HOBBY{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+.HOBBY .contents{
+    display: flex;
+}
+
+.HOBBY .contents .content{
+    width: calc(100%/3);
+    margin-right: 15px;
+}
+
+.HOBBY .contents .content:last-child{
+    margin-right: 0;
+}
+
+.HOBBY .contents .content img{
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .HOBBY .contents{
+        flex-direction: column;
+    }
+    
+    .HOBBY .contents .content{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+
+/* footer */
+footer{
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p{
+    font-size: 10px;
+}

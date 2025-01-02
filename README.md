@@ -9,7 +9,7 @@
 
 | 講座・書籍名 | プラットフォー  | 備考 |
 |--------|----------------|------|
-| GCI　Winter |  |  |
+| GCI　Winter |  | [機械学習（Python）](https://gci2.t.u-tokyo.ac.jp/archives/course/gci-2024-winter) |
 | React(v18)完全入門ガイド（Hooks、Next14、Redux、TypeScript ） | Udemy |   |
 
 ---
