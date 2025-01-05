@@ -9,8 +9,10 @@
 
 | 講座・書籍名 | プラットフォー  | 備考 |
 |--------|----------------|------|
-| GCI　Winter |  | [機械学習（Python）](https://gci2.t.u-tokyo.ac.jp/archives/course/gci-2024-winter) |
+| [GCI　Winter](https://gci2.t.u-tokyo.ac.jp/archives/course/gci-2024-winter) |  | 機械学習（Python）|
 | React(v18)完全入門ガイド（Hooks、Next14、Redux、TypeScript ） | Udemy |   |
+| [りあクト！ TypeScriptで始めるつらくないReact開発 第4版【① 言語・環境編】](https://booth.pm/ja/items/2368045) | 本 | |
+| [Webを支える技術](https://www.amazon.co.jp/Web%E3%82%92%E6%94%AF%E3%81%88%E3%82%8B%E6%8A%80%E8%A1%93-HTTP%EF%BC%8CURI%EF%BC%8CHTML%EF%BC%8C%E3%81%9D%E3%81%97%E3%81%A6REST-WEB-PRESS-plus-ebook/dp/B07JK7FZH2) | 本 | |
 
 ---
 
