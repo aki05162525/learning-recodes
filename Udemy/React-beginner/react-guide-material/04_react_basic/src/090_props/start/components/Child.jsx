@@ -5,10 +5,13 @@
 
 import "./Child.css";
 
-const Child = () => {
+const Child = ({ color = 'green' , num}) => {
+
+  
   return (
-    <div className="component">
+    <div className={`component ${ color }`}>
       <h3>Hello Component</h3>
+      <h3>{num}</h3>
     </div>
   );
 };
