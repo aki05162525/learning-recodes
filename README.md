@@ -1,25 +1,24 @@
 # learning-recodes
 
-
 学習記録のリポジトリです。
 
 ---
 
 ## 📚 **現在進行中の講座・本**
 
-| 講座・書籍名 | プラットフォー  | 備考 |
-|--------|----------------|------|
-| [GCI　Winter](https://gci2.t.u-tokyo.ac.jp/archives/course/gci-2024-winter) |  | 機械学習（Python）|
-| React(v18)完全入門ガイド（Hooks、Next14、Redux、TypeScript ） | Udemy |   |
-| [りあクト！ TypeScriptで始めるつらくないReact開発 第4版【① 言語・環境編】](https://booth.pm/ja/items/2368045) | 本 | |
-| [Webを支える技術](https://www.amazon.co.jp/Web%E3%82%92%E6%94%AF%E3%81%88%E3%82%8B%E6%8A%80%E8%A1%93-HTTP%EF%BC%8CURI%EF%BC%8CHTML%EF%BC%8C%E3%81%9D%E3%81%97%E3%81%A6REST-WEB-PRESS-plus-ebook/dp/B07JK7FZH2) | 本 | |
+| 講座・書籍名                                                                                                                                                                                                    | プラットフォー | 備考               |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------ |
+| [GCI 　 Winter](https://gci2.t.u-tokyo.ac.jp/archives/course/gci-2024-winter)                                                                                                                                   |                | 機械学習（Python） |
+| React(v18)完全入門ガイド（Hooks、Next14、Redux、TypeScript ）                                                                                                                                                   | Udemy          |                    |
+| [りあクト！ TypeScript で始めるつらくない React 開発 第 4 版【① 言語・環境編】](https://booth.pm/ja/items/2368045)                                                                                              | 本             |                    |
+| [Web を支える技術](https://www.amazon.co.jp/Web%E3%82%92%E6%94%AF%E3%81%88%E3%82%8B%E6%8A%80%E8%A1%93-HTTP%EF%BC%8CURI%EF%BC%8CHTML%EF%BC%8C%E3%81%9D%E3%81%97%E3%81%A6REST-WEB-PRESS-plus-ebook/dp/B07JK7FZH2) | 本             |                    |
+| 【React アプリ開発】3 種類の React アプリケーションを構築して、React の理解をさらに深めるステップアップ講座 ）                                                                                                  | Udemy          |                    |
 
 ---
 
-##  **完了した講座・本**
+## **完了した講座・本**
 
-| 講座・書籍名 | プラットフォーム | 修了日 |
-|--------|----------------|--------|
-| ちゃんと学ぶ、HTML/CSS + JavaScript | Udemy | 2025-01-23 |
-| Git： もう怖くないGit！チーム開発で必要なGitを完全マスター | Udemy | 2024-12-03 |
-
+| 講座・書籍名                                                  | プラットフォーム | 修了日     |
+| ------------------------------------------------------------- | ---------------- | ---------- |
+| ちゃんと学ぶ、HTML/CSS + JavaScript                           | Udemy            | 2025-01-23 |
+| Git： もう怖くない Git！チーム開発で必要な Git を完全マスター | Udemy            | 2024-12-03 |
