@@ -13,6 +13,7 @@
 | [りあクト！ TypeScript で始めるつらくない React 開発 第 4 版【① 言語・環境編】](https://booth.pm/ja/items/2368045)                                                                                              | 本             |                    |
 | [Web を支える技術](https://www.amazon.co.jp/Web%E3%82%92%E6%94%AF%E3%81%88%E3%82%8B%E6%8A%80%E8%A1%93-HTTP%EF%BC%8CURI%EF%BC%8CHTML%EF%BC%8C%E3%81%9D%E3%81%97%E3%81%A6REST-WEB-PRESS-plus-ebook/dp/B07JK7FZH2) | 本             |                    |
 | 【React アプリ開発】3 種類の React アプリケーションを構築して、React の理解をさらに深めるステップアップ講座 ）                                                                                                  | Udemy          |                    |
+| Kaggle で勝つデータ分析の技術                                                                                                                                                                                   | 本             |                    |
 
 ---
 
