@@ -2,6 +2,8 @@ import { useState } from "react";
 
 const Example = () => {
   const [ toggle, setToggle ] = useState(true);
+  const [count, setCount] = useState(0);
+
   const toggleComponent = () => {
     setToggle(prev => !prev);
   }
@@ -13,7 +15,6 @@ const Example = () => {
   )
 }
 const Count = ({ title }) => {
-  const [count, setCount] = useState(0);
   const countUp = () => {
     setCount((prevstate) => prevstate + 1);
   };
